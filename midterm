@@ -1,0 +1,129 @@
+body {
+    background-color: #83EAF1;
+}
+
+/*-------- Header Section ---------*/
+
+.header {
+    height: 40vh;
+    width: 70%;
+    margin-left: 200px;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    border: 3px solid white;
+}
+ .sun {
+   font-size: 70px;
+   margin-top: 150px;
+   text-align: center;
+}
+
+/*-------- Navigation Section ---------*/
+
+.nav {
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: 200px;
+    border: 3px solid white;
+    background-color: #45b8c0;
+    font-family: sans-serif;
+}
+.sunset {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-right: 630px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}               
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 100px;
+    position: relative;
+}
+.nav-links a {
+    color: black;
+}
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(8, 0, 255);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.nav img {
+    float: left;
+    padding-left: 30px;
+    margin-right: 40px;
+}
+.nav p {
+  text-align: justify;
+  font-size: 16px;
+  height: 150px;
+  width: 95%;
+  letter-spacing: 0;
+  font-weight: lighter;
+}
+
+/*-------- Fact Section ---------*/
+.fact {
+  margin-left: 25px;
+  font-weight: bold;
+}
+.fact-ul {
+    font-weight: lighter;
+}
+
+/*-------- Contact Section ---------*/
+.contact {
+  margin-left: 25px;
+  font-weight: bold;
+}
+.nav h4 {
+    font-weight: lighter;
+    margin-left: 25px;
+    font-family: Arial; 
+}
+#name , #email , #message {
+    margin-left: 25px;
+}
+
+/*-------- Button Section ---------*/
+
+.btn {
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+.sec2 {
+    border-style: solid;
+    border-color: #fff;
+    width: 97%;
+    align-content: center;
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+.sec2 label{
+    font-weight: lighter;
+}
+#no , #yes, #maybe {
+    cursor: pointer;
+}
